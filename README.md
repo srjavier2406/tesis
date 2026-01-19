@@ -1,2 +1,2 @@
 # tesis
-códigos generado con OpenAI
+código generado con ChatGPT OpenAI
