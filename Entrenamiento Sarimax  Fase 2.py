@@ -43,7 +43,7 @@ y_train = train["ventas"]
 #---- variables de entrada----
 X_train = train[exog_cols]
 #--- rango de parámetros (lo mismo que rf )
-p = d = q = range(0, 2)
+p = d = q = range(0, 3)
 pdq = list(itertools.product(p, d, q))
 
 seasonal_pdq = [
@@ -126,3 +126,4 @@ plt.legend()
 plt.grid(alpha=0.3)
 plt.tight_layout()
 plt.show()
+
